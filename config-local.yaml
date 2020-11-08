@@ -1,0 +1,20 @@
+app:
+  domain: 'https://qianbei.com'
+  port: '8088'
+  dbtype: 'mysql'
+log:
+  dir: './storage/logs/'
+  format: 'json'
+redis:
+  addr: '60.205.2.90:6379'
+  password: 'Aa8341526'
+  db: 0
+mysql:
+  username: root
+  password: 'Aa8341526'
+  path: '60.205.2.90:3306'
+  dbname: 'qianbei'
+  config: 'charset=utf8&parseTime=True&loc=Local'
+  maxidleconns: 10
+  maxopenconns: 10
+  logmode: true
